@@ -1,5 +1,5 @@
 /* ===============================
-   Global Reset & Base Styling
+   Global Reset
    =============================== */
 * {
   box-sizing: border-box;
@@ -7,11 +7,14 @@
   padding: 0;
 }
 
+/* ===============================
+   Base Styling
+   =============================== */
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #faf8f5;
-  color: #2b2b2b;
-  line-height: 1.6;
+  font-family: "Georgia", "Times New Roman", serif;
+  background-color: #121212;
+  color: #e6e6e6;
+  line-height: 1.7;
   padding: 20px;
 }
 
@@ -19,20 +22,23 @@ body {
    Header
    =============================== */
 header {
-  background-color: #2b2b2b;
-  color: #ffffff;
-  padding: 30px 20px;
+  background: linear-gradient(180deg, #3b0a0a, #1a0505);
+  color: #f5f5f5;
+  padding: 40px 25px;
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  border: 1px solid #5a1a1a;
 }
 
 header h1 {
-  font-size: 2.1rem;
-  margin-bottom: 8px;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
 header p {
-  margin-bottom: 10px;
+  font-size: 1rem;
+  margin-bottom: 12px;
 }
 
 header strong {
@@ -43,14 +49,16 @@ header strong {
    Navigation
    =============================== */
 nav {
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 nav a {
   color: #d4af37;
   text-decoration: none;
   font-weight: bold;
-  margin-right: 15px;
+  letter-spacing: 0.5px;
+  margin-right: 18px;
 }
 
 nav a:hover {
@@ -62,44 +70,52 @@ nav a:hover {
    Main Layout
    =============================== */
 main {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto;
 }
 
 /* ===============================
-   Section Cards
+   Content Sections
    =============================== */
 section {
-  background-color: #ffffff;
-  padding: 25px;
+  background-color: #1c1c1c;
+  padding: 30px;
   border-radius: 10px;
-  margin-bottom: 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  margin-bottom: 40px;
+  border: 1px solid #2f2f2f;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
 section h2 {
-  color: #b03a2e;
+  color: #d4af37;
+  font-size: 1.6rem;
   margin-bottom: 15px;
-  border-bottom: 2px solid #d4af37;
+  border-bottom: 2px solid #5a1a1a;
   padding-bottom: 6px;
+  letter-spacing: 1px;
 }
 
 section h3 {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 10px;
-  color: #6b8e23;
+  color: #b03a2e;
+  font-size: 1.2rem;
 }
 
 /* ===============================
-   Lists
+   Text & Lists
    =============================== */
+p {
+  margin-bottom: 10px;
+}
+
 ul,
 ol {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 /* ===============================
@@ -107,41 +123,19 @@ li {
    =============================== */
 hr {
   border: none;
-  border-top: 1px solid #ddd;
-  margin: 30px 0;
-}
-
-/* ===============================
-   Diagram Images
-   =============================== */
-.diagram {
-  display: block;
-  max-width: 100%;
-  margin: 20px auto;
-  padding: 10px;
-  background-color: #faf8f5;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
-}
-
-.diagram-caption {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #666;
-  margin-top: -10px;
-  margin-bottom: 20px;
+  border-top: 1px solid #5a1a1a;
+  margin: 40px 0;
 }
 
 /* ===============================
    Sprint Section Styling
    =============================== */
 #sprints h3 {
-  color: #b03a2e;
+  color: #d4af37;
 }
 
 #sprints p strong {
-  color: #6b8e23;
+  color: #b03a2e;
 }
 
 /* ===============================
@@ -150,6 +144,6 @@ hr {
 footer {
   text-align: center;
   font-size: 0.85rem;
-  color: #777;
-  margin-top: 40px;
+  color: #aaaaaa;
+  margin-top: 50px;
 }
