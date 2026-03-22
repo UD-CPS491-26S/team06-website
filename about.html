@@ -4,76 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About - Team 06</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Pacifico&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <header>
-      <h1>About Team 06</h1>
-      <p><strong>Jake's of Columbia - Restaurant POS System</strong></p>
-
-      <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a>
-      </nav>
-
-      <hr />
-    </header>
-
-    <main>
-      <section id="team">
-        <h2>Team Members</h2>
-        <p>
-          (Description?)
-        </p>
-
-        <h3>Anthony Boykin</h3>
-        <img src="images/Anthony_Boykin.jpg" alt="Team Member 1" width="200" />
-        <ul>
-          <li><strong>Role:</strong>(something)</li>
-          <li><strong>Email:</strong>boykina3@udayton.edu</li>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="site-title">Jake's of Columbia POS</div>
+        <div class="site-subtitle"><strong>CPS 491 - Capstone II</strong> | Team 06 | Spring 2026</div>
+        <ul class="side-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="project.html">Project Description</a></li>
+          <li><a href="requirements.html">Requirements</a></li>
+          <li><a href="diagrams.html">Diagrams</a></li>
+          <li><a href="technologies.html">Technologies</a></li>
+          <li><a href="sprints.html">Sprint Updates</a></li>
+          <li><a href="about.html" class="active">About the Team</a></li>
         </ul>
+      </aside>
 
-        <h3>Nathan Hetman</h3>
-        <img src="images/Hetman_Nathan_Headshot.jpg" alt="Team Member 2" width="200" />
-        <ul>
-          <li><strong>Role:</strong>(something)</li>
-          <li><strong>Email:</strong>hetmann1@udayton.edu</li>
-        </ul>
+      <main class="content page-about">
+        <header class="page-header">
+          <h1 class="banner-title">About The Team</h1>
+        </header>
 
-        <h3>Gislain Rubuto</h3>
-        <img src="images/GislainR.JPG" alt="Team Member 3" width="200" />
-        <ul>
-          <li><strong>Role:</strong>(something)</li>
-          <li><strong>Email:</strong>rubutog1@udayton.edu</li>
-        </ul>
+        <div class="card">
+          <h2>Team Members</h2>
+          <div class="team-grid">
+            <div class="team-member">
+              <img src="images/Anthony_Boykin.jpg" alt="Anthony Boykin" />
+              <h3>Anthony Boykin</h3>
+              <p><strong>Role:</strong> Developer</p>
+              <p><strong>Email:</strong> boykina3@udayton.edu</p>
+            </div>
+            <div class="team-member">
+              <img src="images/Hetman_Nathan_Headshot.jpg" alt="Nathan Hetman" />
+              <h3>Nathan Hetman</h3>
+              <p><strong>Role:</strong> Developer</p>
+              <p><strong>Email:</strong> hetmann1@udayton.edu</p>
+            </div>
+            <div class="team-member">
+              <img src="images/GislainR.JPG" alt="Gislain Rubuto" />
+              <h3>Gislain Rubuto</h3>
+              <p><strong>Role:</strong> Developer </p>
+              <p><strong>Email:</strong> rubutog1@udayton.edu</p>
+            </div>
+            <div class="team-member">
+              <img src="images/Phuong_Phillip_Headshot.jpg" alt="Phillip Phuong" />
+              <h3>Phillip Phuong</h3>
+              <p><strong>Role:</strong> Developer</p>
+              <p><strong>Email:</strong> phuongp1@udayton.edu</p>
+            </div>
+          </div>
+        </div>
 
-        <h3>Phillip Phuong</h3>
-        <img src="images/Phuong_Phillip_Headshot.jpg" alt="Team Member 4" width="200" />
-        <ul>
-          <li><strong>Role:</strong>(something)</li>
-          <li><strong>Email:</strong>phuongp1@udayton.edu</li>
-        </ul>
-      </section>
+        <div class="card" style="margin-top: 20px;">
+          <h2>Instructor</h2>
+          <img src="images/stiffler-nick.jpg" alt="Dr. Stiffler" style="max-width: 220px; height: auto; border-radius: 4px; margin-bottom: 10px;" />
+          <p><strong>Dr. Stiffler</strong></p>
+          <p>Capstone Professor</p>
+        </div>
 
-      <hr />
-
-      <section id="faculty">
-        <h2>Instructor</h2>
-        <p><strong>Dr. Stiffler</strong></p>
-        <p>(Description)</p>
-      </section>
-
-      <hr />
-
-      <section id="client">
-        <h2>Client</h2>
-        <p><strong>Jordan Stiffler</strong></p>
-        <p>(Description?)</p>
-      </section>
-
-      <hr />
-      
-    </main>
+        <div class="card" style="margin-top: 20px;">
+          <h2>Client</h2>
+          <p><strong>Jordan Stiffler</strong></p>
+          <p>Manager at Jake's of Columbia</p>
+        </div>
+      </main>
+    </div>
   </body>
 </html>

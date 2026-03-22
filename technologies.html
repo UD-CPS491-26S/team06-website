@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technologies - Team 06</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="site-title">Jake's of Columbia POS</div>
+        <div class="site-subtitle"><strong>CPS 491 - Capstone II</strong> | Team 06 | Spring 2026</div>
+        <ul class="side-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="project.html">Project Description</a></li>
+          <li><a href="requirements.html">Requirements</a></li>
+          <li><a href="diagrams.html">Diagrams</a></li>
+          <li><a href="technologies.html" class="active">Technologies</a></li>
+          <li><a href="sprints.html">Sprint Updates</a></li>
+          <li><a href="about.html">About the Team</a></li>
+        </ul>
+      </aside>
+
+      <main class="content page-technologies">
+        <header class="page-header">
+          <h1 class="banner-title">Technologies</h1>
+        </header>
+        <div class="card">
+          <h2>Tech Stack</h2>
+          <ul>
+            <li><strong>Frontend:</strong> React 18 with Vite and React Router.</li>
+            <li>
+              <strong>Backend:</strong> Node.js and Express REST API with role-based auth, order
+              management, and menu management.
+            </li>
+            <li><strong>Database:</strong> MongoDB with Mongoose models for users, menu items, and orders.</li>
+            <li><strong>Deployment:</strong> Local prototype for classroom demos and testing.</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top: 20px;">
+          <h2>Database Design</h2>
+          <p>
+            The prototype uses separate collections for users, menu items, and orders. Orders link
+            to the user who created them and include line items that track bar vs. kitchen tickets,
+            discounts, tabs, and split payments.
+          </p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
